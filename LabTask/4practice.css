@@ -1,0 +1,47 @@
+.container{
+    height: 700px;
+    width: 600px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction:row;
+    gap: 30px;
+    justify-content: space-between; 
+    margin: 20px;
+    padding:20PX;
+    flex-wrap:wrap;
+    box-sizing: border-box;
+ 
+}
+
+.card {
+    width: 150px;
+    height: 150px;
+
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+}
+
+.card h1 {
+   font-size: 20px;
+}
+
+.card p {
+    font-size: 14px;
+}
+
+span{
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+button{
+    background-color: cadetblue;
+    height: 30px;
+    border: 2px solid black;
+    color: white;
+    border-radius: 10px;
+}
